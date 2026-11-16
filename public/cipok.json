@@ -1,0 +1,34 @@
+{
+ "cipok": [
+    {
+        "nev": "Adidas Yeezy 350",
+        "kiadas": "2018-06-25",
+        "eladva": 30,
+        "elerheto": true
+    },
+    {
+        "nev": "Nike Air Jordan 1",
+        "kiadas": "1988-08-01",
+        "eladva": 445,
+        "elerheto": false 
+    },
+    {
+        "nev": "Adidas Samba",
+        "kiadas": "2012-04-12",
+        "eladva": 220,
+        "elerheto": false
+    },
+    {
+        "nev": "Nike Air Max 90",
+        "kiadas": "2000-05-04",
+        "eladva": 178,
+        "elerheto": true
+    },
+    {
+        "nev": "Converse All-Star",
+        "kiadas": "1975-10-20",
+        "eladva": 576,
+        "elerheto": true
+    }
+ ]   
+}
