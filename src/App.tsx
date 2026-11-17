@@ -6,8 +6,9 @@ import Tablazat from './components/tablazat'
 import Form from './components/form'
 
 function App() {
+  const uresCipo: Cipo = {id: "", nev: "", ar: 0, elerheto: false, kiadas: new Date("")};
   const [cipok,setCipok] = useState<Cipo[]>([]);
-  const [vCipo,setVCipo] = useState<Cipo | undefined>(undefined);
+  const [vCipo,setVCipo] = useState<Cipo>(uresCipo);
   useEffect(() => {
     async function getData() {
       const response = await fetch("http://localhost:3000/cipok");
@@ -16,6 +17,10 @@ function App() {
     }
     getData();
   },[])
+
+  function megse() {
+    setVCipo(uresCipo);
+  }
   
   function beallitas(id: string)
   {
@@ -28,6 +33,8 @@ function App() {
     <div className="container">
       <Form
         cipo={vCipo}
+        setCipo={setVCipo}
+        megse={megse}
       />
       <div className="row">
         <div className="col-sm-8 mx-auto">
