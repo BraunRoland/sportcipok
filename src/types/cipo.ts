@@ -1,6 +1,7 @@
 export type Cipo = {
+    id: string,
     nev: string,
     kiadas: Date,
-    eladva: number,
+    ar: number,
     elerheto: boolean
 }

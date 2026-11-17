@@ -1,0 +1,14 @@
+form {
+    margin: 15px;
+    background-color: rgb(247, 247, 247);
+    padding: 10px;
+}
+
+.radioBtn {
+    padding-top: 5%;
+}
+
+.formBtn {
+    margin-top: 10px;
+    margin-left: 10px;
+}
