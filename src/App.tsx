@@ -6,7 +6,8 @@ import Tablazat from './components/tablazat'
 import Form from './components/form'
 
 function App() {
-  const uresCipo: Cipo = {id: "", nev: "", ar: 0, elerheto: false, kiadas: new Date("")};
+  const uresCipo: Cipo = {id: "", nev: "", ar: 0, elerheto: false, kiadas: ""};
+  const [modified,setModified] = useState<boolean>(false);
   const [cipok,setCipok] = useState<Cipo[]>([]);
   const [vCipo,setVCipo] = useState<Cipo>(uresCipo);
   useEffect(() => {
@@ -35,6 +36,8 @@ function App() {
         cipo={vCipo}
         setCipo={setVCipo}
         megse={megse}
+        modified={modified}
+        setModified={setModified}
       />
       <div className="row">
         <div className="col-sm-8 mx-auto">
@@ -54,6 +57,7 @@ function App() {
                   <Tablazat
                     cipo={c}
                     beallitas = {(id: string)=> beallitas(id)}
+                    setModified={setModified}
                     key={c.id}
                   />
                 ))

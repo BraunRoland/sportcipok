@@ -1,34 +1,47 @@
 {
- "cipok": [
+  "cipok": [
     {
-        "nev": "Adidas Yeezy 350",
-        "kiadas": "2018-06-25",
-        "ar": 300,
-        "elerheto": true
+      "nev": "Adidas Yeezy 350",
+      "kiadas": "2018-06-25",
+      "ar": 300,
+      "elerheto": true,
+      "id": "Mfmna_VgLNQ"
     },
     {
-        "nev": "Nike Air Jordan 1",
-        "kiadas": "1988-08-01",
-        "ar": 445,
-        "elerheto": false 
+      "nev": "Nike Air Jordan 1",
+      "kiadas": "1988-08-01",
+      "ar": 445,
+      "elerheto": false,
+      "id": "285nU7z0LdI"
     },
     {
-        "nev": "Adidas Samba",
-        "kiadas": "2012-04-12",
-        "ar": 80,
-        "elerheto": false
+      "nev": "Adidas Samba",
+      "kiadas": "2012-04-12",
+      "ar": 80,
+      "elerheto": false,
+      "id": "ZlOqDHvklJk"
     },
     {
-        "nev": "Nike Air Max 90",
-        "kiadas": "2000-05-04",
-        "ar": 178,
-        "elerheto": true
+      "nev": "Nike Air Max 90",
+      "kiadas": "2000-05-04",
+      "ar": 178,
+      "elerheto": true,
+      "id": "aXKRi9GFi2A"
     },
     {
-        "nev": "Converse All-Star",
-        "kiadas": "1975-10-20",
-        "ar": 60,
-        "elerheto": true
+      "nev": "Converse All-Star",
+      "kiadas": "1975-10-20",
+      "ar": 68,
+      "elerheto": true,
+      "id": "zI7UAwhxyeQ"
+    },
+    {
+      "nev": "asd",
+      "kiadas": "2026-11-19",
+      "ar": 60,
+      "elerheto": true,
+      "id": "E9ycjMVVxu0"
     }
- ]   
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
